@@ -1,3 +1,13 @@
 .venv
-__pycache__
 .vscode
+.buildozer
+.idea
+venv_buildozer
+build
+bin
+dist
+interfaz.spec
+buildozer.spec
+__pycache__
+=0.3.3
+=1.10,
