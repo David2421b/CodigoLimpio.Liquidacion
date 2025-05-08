@@ -34,49 +34,49 @@ class SecondScreen(Screen):
 
 
         self.label_prima = BackgroundLabel(text = "Tu prima es:",
-                                 size_hint = (1 , None),
-                                 height = 100,
-                                 font_size = 30,
-                                 background_color = (0.2, 0.2, 0.2, 1))
+                                size_hint = (1 , None),
+                                height = 100,
+                                font_size = 30,
+                                background_color = (0.2, 0.2, 0.2, 1))
         self.contenedor_labels.add_widget(self.label_prima)
 
         self.prima = TextInput(size_hint = (1 , None),
-                               height = 100,
-                               font_size = 25)
+                                height = 100,
+                                font_size = 25)
         self.contenedor_labels.add_widget(self.prima)
 
 
         self.label_cesantias = BackgroundLabel(text = "Tus cesantias son:",
-                                     size_hint = (1 , None),
-                                     height = 100,
-                                     font_size = 30,
-                                     background_color = (0.2, 0.2, 0.2, 1))
+                                    size_hint = (1 , None),
+                                    height = 100,
+                                    font_size = 30,
+                                    background_color = (0.2, 0.2, 0.2, 1))
         self.contenedor_labels.add_widget(self.label_cesantias)
 
         self.cesantias = TextInput(size_hint = (1 , None),
-                                   height = 100,
-                                   font_size = 25)
+                                    height = 100,
+                                    font_size = 25)
         self.contenedor_labels.add_widget(self.cesantias)
 
 
         self.label_intereses_cesantias = BackgroundLabel(text = "Tus intereses sobre las cesantias son:",
-                                               size_hint = (1 , None),
-                                               height = 100,
-                                               font_size = 30,
-                                               background_color = (0.2, 0.2, 0.2, 1))
+                                                size_hint = (1 , None),
+                                                height = 100,
+                                                font_size = 30,
+                                                background_color = (0.2, 0.2, 0.2, 1))
         self.contenedor_labels.add_widget(self.label_intereses_cesantias)
 
         self.intereses_cesantias = TextInput(size_hint = (1 , None),
-                                             height = 100,
-                                             font_size = 25)
+                                            height = 100,
+                                            font_size = 25)
         self.contenedor_labels.add_widget(self.intereses_cesantias)
 
 
         self.label_vacaciones = BackgroundLabel(text = "tus vacaciones son:",
-                                      size_hint = (1 , None),
-                                      height = 100,
-                                      font_size = 30,
-                                      background_color = (0.2, 0.2, 0.2, 1))
+                                        size_hint = (1 , None),
+                                        height = 100,
+                                        font_size = 30,
+                                        background_color = (0.2, 0.2, 0.2, 1))
         self.contenedor_labels.add_widget(self.label_vacaciones)
 
         self.vacaciones = TextInput(size_hint = (1 , None),
@@ -86,36 +86,36 @@ class SecondScreen(Screen):
 
 
         self.label_indemnizacion = BackgroundLabel(text = "tu indemnizacion es:",
-                                         size_hint = (1 , None),
-                                         height = 100,
-                                         font_size = 30,
-                                         background_color = (0.2, 0.2, 0.2, 1))
+                                        size_hint = (1 , None),
+                                        height = 100,
+                                        font_size = 30,
+                                        background_color = (0.2, 0.2, 0.2, 1))
         self.contenedor_labels.add_widget(self.label_indemnizacion)
 
         self.indemnizacion = TextInput(size_hint = (1 , None),
-                                       height = 100,
-                                       font_size = 25)
+                                        height = 100,
+                                        font_size = 25)
         self.contenedor_labels.add_widget(self.indemnizacion)
 
 
         self.label_total_liquidacion = BackgroundLabel(text = "tu liquidacion es:",
-                                             size_hint = (1 , None),
-                                             height = 100,
-                                             font_size = 30,
-                                             background_color = (0.2, 0.2, 0.2, 1))
+                                            size_hint = (1 , None),
+                                            height = 100,
+                                            font_size = 30,
+                                            background_color = (0.2, 0.2, 0.2, 1))
         self.contenedor_labels.add_widget(self.label_total_liquidacion)
 
         self.total_liquidacion = TextInput(size_hint = (1 , None),
-                                           height = 100,
-                                           font_size = 25)
+                                            height = 100,
+                                            font_size = 25)
         self.contenedor_labels.add_widget(self.total_liquidacion)
 
         self.contenedor.add_widget(self.contenedor_labels)
 
         self.regresar_inicio = Button(text = "Volver",
-                             font_size = 30,
-                             size_hint = (1, 0.15),
-                             background_color = (0.18, 0.44, 0.75, 1))
+                            font_size = 30,
+                            size_hint = (1, 0.15),
+                            background_color = (0.18, 0.44, 0.75, 1))
         self.regresar_inicio.bind(on_press = self.volver_inicio)
         self.contenedor.add_widget(self.regresar_inicio)
 

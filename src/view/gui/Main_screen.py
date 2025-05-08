@@ -189,18 +189,18 @@ class MainScreen(Screen):
 
     def mostrar_error(self, err):
         contenido = GridLayout(cols = 1,
-                               spacing = dp(8),
-                               padding = dp(11),
-                               size_hint = (1, 1))
+                                spacing = dp(8),
+                                padding = dp(11),
+                                size_hint = (1, 1))
         contenido.add_widget(Label(text = str(err),
-                                   font_size = 35))
+                                    font_size = 35))
 
         cerrar = Button(text = "Cerrar",
                         font_size = 30)
         contenido.add_widget(cerrar)
 
         popup = Popup(title = "Error",
-                      content = contenido)
+                    content = contenido)
         cerrar.bind( on_press = popup.dismiss)
 
         popup.open()
